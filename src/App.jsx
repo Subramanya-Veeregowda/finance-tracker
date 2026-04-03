@@ -28,13 +28,16 @@ export default function App() {
 
   return (
     <BrowserRouter>
+       <main className="pt-20">
         <Routes>
+       
           <Route path="/" element={<Dashboard dark={dark} setDark={setDark}/>} />
           <Route path="/transactions" element={<Transactions dark={dark} setDark={setDark}/>} />
           <Route path="/analytics" element={<Analytics dark={dark} setDark={setDark}/>} />
           <Route path="/insights" element={<Insights dark={dark} setDark={setDark}/>} />
+          
         </Routes>
-        
+        </main>
     </BrowserRouter>
   );
 }
