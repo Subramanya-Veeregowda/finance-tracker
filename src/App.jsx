@@ -1,5 +1,12 @@
 import { useState, useEffect } from "react";
-import Layout from "./layout/Layout";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
+import Dashboard from "./pages/Dashboard";
+import Transactions from "./pages/Transactions";
+import Analytics from "./pages/Analytics";
+import Insights from "./pages/Insights"
+import Footer from "./components/Footer";
 
 export default function App() {
 
@@ -19,7 +26,15 @@ export default function App() {
 
   }, [dark])
 
-  return( 
-  <Layout dark={dark} setDark={setDark} />
-);
+  return (
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Dashboard dark={dark} setDark={setDark}/>} />
+          <Route path="/transactions" element={<Transactions dark={dark} setDark={setDark}/>} />
+          <Route path="/analytics" element={<Analytics dark={dark} setDark={setDark}/>} />
+          <Route path="/insights" element={<Insights dark={dark} setDark={setDark}/>} />
+        </Routes>
+        
+    </BrowserRouter>
+  );
 }

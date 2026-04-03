@@ -1,0 +1,317 @@
+{
+  "summary": {
+    "totalIncome": 1845320,
+    "totalExpense": 1267840,
+    "balance": 577480
+  },
+  "transactions": [
+    {
+      "id": 1,
+      "date": "2024-01-01",
+      "title": "Salary Credit",
+      "category": "Salary",
+      "amount": 85000,
+      "type": "income",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": 2,
+      "date": "2024-01-01",
+      "title": "Groceries",
+      "category": "Groceries",
+      "amount": 1450,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 3,
+      "date": "2024-01-01",
+      "title": "Transport",
+      "category": "Transport",
+      "amount": 320,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 4,
+      "date": "2024-01-01",
+      "title": "Dining Out",
+      "category": "Dining Out",
+      "amount": 780,
+      "type": "expense",
+      "paymentMethod": "Credit Card"
+    },
+    {
+      "id": 5,
+      "date": "2024-01-02",
+      "title": "Freelance Project",
+      "category": "Freelance Project",
+      "amount": 12000,
+      "type": "income",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": 6,
+      "date": "2024-01-02",
+      "title": "Shopping",
+      "category": "Shopping",
+      "amount": 3200,
+      "type": "expense",
+      "paymentMethod": "Debit Card"
+    },
+    {
+      "id": 7,
+      "date": "2024-01-02",
+      "title": "Subscriptions",
+      "category": "Subscriptions",
+      "amount": 499,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 8,
+      "date": "2024-01-03",
+      "title": "Rent",
+      "category": "Rent",
+      "amount": 15000,
+      "type": "expense",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": 9,
+      "date": "2024-01-03",
+      "title": "Healthcare",
+      "category": "Healthcare",
+      "amount": 1200,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 10,
+      "date": "2024-01-03",
+      "title": "Entertainment",
+      "category": "Entertainment",
+      "amount": 650,
+      "type": "expense",
+      "paymentMethod": "Credit Card"
+    },
+
+
+
+    {
+      "id": 5321,
+      "date": "2025-12-31",
+      "title": "Dining Out",
+      "category": "Dining Out",
+      "amount": 2100,
+      "type": "expense",
+      "paymentMethod": "Credit Card"
+    },
+
+        {
+      "id": 1,
+      "date": "2024-01-01",
+      "title": "Salary Credit",
+      "category": "Salary",
+      "amount": 85000,
+      "type": "income",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": 2,
+      "date": "2024-01-01",
+      "title": "Groceries",
+      "category": "Groceries",
+      "amount": 1450,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 3,
+      "date": "2024-01-01",
+      "title": "Transport",
+      "category": "Transport",
+      "amount": 320,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 4,
+      "date": "2024-01-01",
+      "title": "Dining Out",
+      "category": "Dining Out",
+      "amount": 780,
+      "type": "expense",
+      "paymentMethod": "Credit Card"
+    },
+    {
+      "id": 5,
+      "date": "2024-01-02",
+      "title": "Freelance Project",
+      "category": "Freelance Project",
+      "amount": 12000,
+      "type": "income",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": 6,
+      "date": "2024-01-02",
+      "title": "Shopping",
+      "category": "Shopping",
+      "amount": 3200,
+      "type": "expense",
+      "paymentMethod": "Debit Card"
+    },
+    {
+      "id": 7,
+      "date": "2024-01-02",
+      "title": "Subscriptions",
+      "category": "Subscriptions",
+      "amount": 499,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 8,
+      "date": "2024-01-03",
+      "title": "Rent",
+      "category": "Rent",
+      "amount": 15000,
+      "type": "expense",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": 9,
+      "date": "2024-01-03",
+      "title": "Healthcare",
+      "category": "Healthcare",
+      "amount": 1200,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 10,
+      "date": "2024-01-03",
+      "title": "Entertainment",
+      "category": "Entertainment",
+      "amount": 650,
+      "type": "expense",
+      "paymentMethod": "Credit Card"
+    },
+
+
+
+    {
+      "id": 5321,
+      "date": "2025-12-31",
+      "title": "Dining Out",
+      "category": "Dining Out",
+      "amount": 2100,
+      "type": "expense",
+      "paymentMethod": "Credit Card"
+    },
+
+        {
+      "id": 1,
+      "date": "2024-01-01",
+      "title": "Salary Credit",
+      "category": "Salary",
+      "amount": 85000,
+      "type": "income",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": 2,
+      "date": "2024-01-01",
+      "title": "Groceries",
+      "category": "Groceries",
+      "amount": 1450,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 3,
+      "date": "2024-01-01",
+      "title": "Transport",
+      "category": "Transport",
+      "amount": 320,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 4,
+      "date": "2024-01-01",
+      "title": "Dining Out",
+      "category": "Dining Out",
+      "amount": 780,
+      "type": "expense",
+      "paymentMethod": "Credit Card"
+    },
+    {
+      "id": 5,
+      "date": "2024-01-02",
+      "title": "Freelance Project",
+      "category": "Freelance Project",
+      "amount": 12000,
+      "type": "income",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": 6,
+      "date": "2024-01-02",
+      "title": "Shopping",
+      "category": "Shopping",
+      "amount": 3200,
+      "type": "expense",
+      "paymentMethod": "Debit Card"
+    },
+    {
+      "id": 7,
+      "date": "2024-01-02",
+      "title": "Subscriptions",
+      "category": "Subscriptions",
+      "amount": 499,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 8,
+      "date": "2024-01-03",
+      "title": "Rent",
+      "category": "Rent",
+      "amount": 15000,
+      "type": "expense",
+      "paymentMethod": "Bank Transfer"
+    },
+    {
+      "id": 9,
+      "date": "2024-01-03",
+      "title": "Healthcare",
+      "category": "Healthcare",
+      "amount": 1200,
+      "type": "expense",
+      "paymentMethod": "UPI"
+    },
+    {
+      "id": 10,
+      "date": "2024-01-03",
+      "title": "Entertainment",
+      "category": "Entertainment",
+      "amount": 650,
+      "type": "expense",
+      "paymentMethod": "Credit Card"
+    },
+
+
+
+    {
+      "id": 5321,
+      "date": "2025-12-31",
+      "title": "Dining Out",
+      "category": "Dining Out",
+      "amount": 2100,
+      "type": "expense",
+      "paymentMethod": "Credit Card"
+    }
+  ]
+}
