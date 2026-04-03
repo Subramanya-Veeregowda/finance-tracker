@@ -13,7 +13,7 @@ function Topbar({ dark, setDark }) {
   const [settingsOpen, setSettingsOpen] = useState(false);
 
   return (
-    <div className="relative z-50">
+    <div className="fixed top-0 h-20 left-0 w-full z-50">
 
       {/* TOPBAR */}
       <div className="
@@ -37,13 +37,13 @@ function Topbar({ dark, setDark }) {
                 hover:bg-purple-900/20 dark:hover:bg-purple-500/20 ${isActive ? "bg-purple-900/20 text-purple-500 scale-105" : ""}`}>Dashboard</NavLink>
           <NavLink to="/transactions" className={({ isActive }) => `px-4 py-2 rounded-lg cursor-pointer transition-all duration-300
                 hover:text-yellow-600 dark:hover:text-yellow-700 hover:scale-105
-                hover:bg-yellow-900/20 dark:hover:bg-yellow-500/20 ${isActive ? "bg-yellow-900/20 text-yellow-500 scale-105" : ""}`}>Transactions</NavLink>
+                hover:bg-yellow-900/20 dark:hover:bg-yellow-500/20 ${isActive ? "bg-yellow-900/20 text-yellow-800 scale-105" : ""}`}>Transactions</NavLink>
           <NavLink to="/analytics" className={({ isActive }) => `px-4 py-2 rounded-lg cursor-pointer transition-all duration-300
                 hover:text-blue-600 dark:hover:text-blue-700 hover:scale-105
                 hover:bg-blue-900/20 dark:hover:bg-blue-500/20 ${isActive ? "bg-blue-900/20 text-blue-500 scale-105" : ""}`}>Analytics</NavLink>
           <NavLink to="/insights" className={({ isActive }) => `px-4 py-2 rounded-lg cursor-pointer transition-all duration-300
                 hover:text-green-600 dark:hover:text-green-700 hover:scale-105
-                hover:bg-green-900/20 dark:hover:bg-green-500/20 ${isActive ? "bg-green-900/20 text-green-500 scale-105" : ""}`}>Insights</NavLink>
+                hover:bg-green-900/20 dark:hover:bg-green-500/20 ${isActive ? "bg-green-900/20 text-green-800 scale-105" : ""}`}>Insights</NavLink>
 
         </div>
 
@@ -118,10 +118,10 @@ function Topbar({ dark, setDark }) {
       {/* MOBILE MENU */}
       {menuOpen && (
         <div className=" 
-          fixed top-15 h-full w-[80%] right-0
+          fixed top-15 h-full w-[70%] right-0
           md:hidden px-4 py-4 space-y-4
-          bg-gray-400/60 dark:bg-gray-900/70
-          backdrop-blur-lg
+          bg-gray-400/60 dark:bg-gray-900/40
+          backdrop-blur-sm
           border-r border-white/20
           dark:border-white/10
         ">
@@ -146,13 +146,13 @@ function Topbar({ dark, setDark }) {
                 hover:bg-purple-900/20 dark:hover:bg-purple-500/20 ${isActive ? "bg-purple-900/20 text-purple-500 scale-105" : ""}`}>Dashboard</NavLink>
           <NavLink to="/transactions" className={({ isActive }) => `px-4 py-2 rounded-lg cursor-pointer transition-all duration-300
                 hover:text-yellow-600 dark:hover:text-yellow-700 hover:scale-105
-                hover:bg-yellow-900/20 dark:hover:bg-yellow-500/20 ${isActive ? "bg-yellow-900/20 text-yellow-500 scale-105" : ""}`}>Transactions</NavLink>
+                hover:bg-yellow-900/20 dark:hover:bg-yellow-500/20 ${isActive ? "bg-yellow-900/20 text-yellow-800 scale-105" : ""}`}>Transactions</NavLink>
           <NavLink to="/analytics" className={({ isActive }) => `px-4 py-2 rounded-lg cursor-pointer transition-all duration-300
                 hover:text-blue-600 dark:hover:text-blue-700 hover:scale-105
                 hover:bg-blue-900/20 dark:hover:bg-blue-500/20 ${isActive ? "bg-blue-900/20 text-blue-500 scale-105" : ""}`}>Analytics</NavLink>
           <NavLink to="/insights" className={({ isActive }) => `px-4 py-2 rounded-lg cursor-pointer transition-all duration-300
                 hover:text-green-600 dark:hover:text-green-700 hover:scale-105
-                hover:bg-green-900/20 dark:hover:bg-green-500/20 ${isActive ? "bg-green-900/20 text-green-500 scale-105" : ""}`}>Insights</NavLink>
+                hover:bg-green-900/20 dark:hover:bg-green-500/20 ${isActive ? "bg-green-900/20 text-green-800 scale-105" : ""}`}>Insights</NavLink>
           </div>
 
           {/* SETTINGS INSIDE MOBILE */}
