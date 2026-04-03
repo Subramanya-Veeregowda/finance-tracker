@@ -7,6 +7,18 @@
   transition: background 0.4s ease, color 0.3s ease;
 }
 
+html, body{
+  height: 100%;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* LIGHT THEME */
 body {
   margin: 0;
@@ -14,9 +26,9 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   background: linear-gradient(
-    135deg,
-    #f8fafc,
-    #eef2f7
+    45deg,
+    #ecf2f8,
+    #ecf2f8
   );
 
   color: #0f172a;
@@ -24,6 +36,9 @@ body {
 
 /* DARK THEME */
 .dark body{
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background: linear-gradient(
     135deg,
     #020617,

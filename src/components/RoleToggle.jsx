@@ -11,7 +11,7 @@ export default function RoleToggle() {
 
       <button
         onClick={() => setIsAdmin(!isAdmin)}
-        className={`w-9 h-5 flex items-center items-left rounded-full p-1 transition shadow-md hover:shadow-xl hover:scale-115 ${
+        className={`w-9 h-5 flex items-center items-left rounded-full p-1 transition shadow-md hover:shadow-xl hover:scale-105 ${
           isAdmin ? "bg-green-500" : "bg-blue-500"
         }`}
       >
