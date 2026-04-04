@@ -59,12 +59,39 @@ To build a responsive and intuitive financial dashboard that:
 
 ### 💻 Desktop (Light Mode)
 <p align="center">
-  <img src="DashboardLight.png" width="450" height="450"/>
-  <img src="DashboardDark.png" width="450" height="450"/>
+  <img src="DashboardLight.png" width="45" height="45"/>
+
+  <img src="TransactionLight.png" width="45" height="45"/>
+
+  <img src="AnalyticsLight.png" width="45" height="45"/>
+
+  <img src="insightsLight.png" width="45" height="45"/>
+
+  <img src="SetiingsLight.png" width="45" height="45"/>
+
+  <img src="LoaderLight.png" width="45" 
+  height="45"/>
+
 </p>
 
 ### 💻 Desktop (Dark Mode)
-> Add screenshot here
+<p align="center">
+
+  <img src="DashboardDark.png" width="45" height="45"/>
+
+  <img src="TransactionDark.png" width="45" height="45"/>
+ 
+  <img src="AnalyticsDark.png" width="45" height="45"/>
+
+  <img src="InsightsDark.png" width="45" 
+  height="45"/>
+
+  <img src="SettingsDark.png" width="45" 
+  height="45"/>
+
+  <img src="LoaderDark.png" width="45" 
+  height="45"/>
+</p>
 
 ### 📱 Mobile (Light Mode)
 > Add screenshot here
