@@ -6,78 +6,93 @@ import {
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaXTwitter } from "react-icons/fa6";
-import FadeIn from "./animations/FadeIn";
+
 
 export default function Footer() {
   return (
-    <footer className="w-full mt-10 px-4 py-6 text-sm text-gray-600 dark:text-gray-300">
+    <footer
+      className="
+        w-full 
+        px-4 py-3
+        bg-gradient-to-r from-purple-400/20 via-blue-400/20 to-emerald-400/20 dark:bg-black backdrop-blur-xl
+        border-b border-black/10 dark:border-white/10
+        md:fixed md:bottom-0 md:left-0 md:z-50
+      "
+    >
+      {/* DESKTOP */}
+      <div className="hidden md:flex items-center justify-between text-sm">
 
-      {/* TECH STACK (SEPARATE ROW ALWAYS) */}
-      <div className="w-full text-center text-[9px] md:text-sm mb-3 opacity-80 break-words hover:scale-[1.02]">
-        React 18 • Vite 5 • Tailwind CSS 3 • Recharts 2 • Node.js 20
+        {/* LEFT */}
+        <div className="text-left">
+          <span className="font-semibold">© 2026 Finance Tracker</span>
+          <span className="opacity-70 ml-2">
+            Designed by Subramanya V
+          </span>
+        </div>
+
+        {/* CENTER */}
+        <div className="text-xs opacity-60 text-center">
+          React 18 • Vite 5 • Tailwind CSS 3 • Recharts 2 • Git • Docker
+        </div>
+
+        {/* RIGHT */}
+        <div className="flex gap-4 text-lg">
+          <a href="https://github.com/Subramanya-Veeregowda" target="_blank">
+            <FaGithub className="hover:text-gray-400 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
+          </a>
+          <a href="https://www.linkedin.com/in/subramanyav2002" target="_blank">
+            <FaLinkedin className="hover:text-blue-600 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
+          </a>
+          <a href="mailto:subramanyav2002@gmail.com">
+            <MdEmail className="hover:text-red-600 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
+          </a>
+          <a href="https://www.instagram.com/subbu.7" target="_blank">
+            <FaInstagram className="hover:text-purple-600 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
+          </a>
+          <a href="https://x.com/Subramanyav" target="_blank">
+            <FaXTwitter className="hover:text-gray-600 hover:scale-125 transition duration-300ease-in-out cursor-pointer"/>
+          </a>
+           <a href="https://wa.me/qr/IH3W2XLDW7FHE1" target="_blank">
+            <FaWhatsapp className="hover:text-green-600 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
+          </a>
+        </div>
       </div>
 
-      {/* MAIN FOOTER ROW */}
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+      {/* MOBILE */}
+      <div className="flex md:hidden flex-col items-center text-center gap-1 text-sm">
 
-        {/* LEFT (© + NAME) */}
-        <div className="md:ml-10 text-center md:text-left">
-          <span className="font-semibold block">
-            © 2026 Finance Tracker
-          </span>
-          <FadeIn delay={2}><span className="opacity-80 block hover:scale-[1.03]">
-            Designed by Subramanya V
-          </span></FadeIn>
+        {/* LINE 1 */}
+        <div className="font-semibold">
+          © 2026 Finance Tracker
         </div>
 
-        {/* RIGHT (ICONS) */}
-        <div className="md:mr-10 flex justify-center hover:scale-[1.02] md:justify-end gap-4 text-lg">
+        {/* LINE 2 */}
+        <div className="opacity-70">
+          Designed by Subramanya V
+        </div>
 
-          <a
-            href="https://www.linkedin.com/in/subramanyav2002"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaLinkedin className="hover:text-blue-500 hover:scale-[1.3] transition" />
+        {/* LINE 3 */}
+        <div className="flex gap-4 text-lg mt-1 ">
+          <a href="https://github.com/Subramanya-Veeregowda" target="_blank">
+            <FaGithub className="hover:text-gray-800 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
           </a>
-
+          <a href="https://www.linkedin.com/in/subramanyav2002" target="_blank">
+            <FaLinkedin className="hover:text-blue-600 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
+          </a>
           <a href="mailto:subramanyav2002@gmail.com">
-            <MdEmail className="hover:text-red-400 hover:scale-[1.3] transition" />
+            <MdEmail className="hover:text-red-600 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
           </a>
-
-          <a
-            href="https://github.com/Subramanya-Veeregowda"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaGithub className="hover:text-white hover:scale-[1.3] transition" />
+          <a href="https://www.instagram.com/subbu.7" target="_blank">
+            <FaInstagram className="hover:text-purple-600 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
           </a>
-
-          <a
-            href="https://wa.me/qr/IH3W2XLDW7FHE1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaWhatsapp className="hover:text-green-500 hover:scale-[1.3] transition" />
+          <a href="https://x.com/Subramanyav" target="_blank" >
+            <FaXTwitter className="hover:text-gray-600 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
           </a>
-
-          <a
-            href="https://www.instagram.com/subbu.7_?igsh=MWRicmJjNGo0NW5ydg=="
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram className="hover:text-pink-500 transition hover:scale-[1.3]" />
+          <a href="https://wa.me/qr/IH3W2XLDW7FHE1" target="_blank">
+            <FaWhatsapp className="hover:text-green-600 hover:scale-125 transition duration-300 ease-in-out cursor-pointer"/>
           </a>
-
-          <a
-            href="https://x.com/SubramanyaV_"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaXTwitter className="hover:text-gray-400 hover:scale-[1.3] transition" />
-          </a>
-
         </div>
+
       </div>
     </footer>
   );
