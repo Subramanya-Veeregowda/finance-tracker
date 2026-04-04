@@ -14,6 +14,14 @@ export default function App() {
     return localStorage.getItem("theme") === "true"
   })
 
+  const [role, setRole] = useState(
+    localStorage.getItem("role") || "viewer"
+  );
+
+  useEffect(() => {
+    localStorage.setItem("role", role)
+  }, [role])
+
   useEffect(() => {
 
     localStorage.setItem("theme", dark)
@@ -32,7 +40,7 @@ export default function App() {
         <Routes>
        
           <Route path="/" element={<Dashboard dark={dark} setDark={setDark}/>} />
-          <Route path="/transactions" element={<Transactions dark={dark} setDark={setDark}/>} />
+          <Route path="/transactions" element={<Transactions dark={dark} setDark={setDark} role={role} setRole={setRole}/>} />
           <Route path="/analytics" element={<Analytics dark={dark} setDark={setDark}/>} />
           <Route path="/insights" element={<Insights dark={dark} setDark={setDark}/>} />
           

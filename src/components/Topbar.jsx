@@ -53,7 +53,7 @@ function Topbar({ dark, setDark }) {
           {/* PROFILE */}
           <div className="hidden md:flex items-center gap-2 ">
             <span className="text-sm text-gray-700 dark:text-gray-300 hover:scale-105">
-              Hi, Myself Subbu
+              Hi, Subbu
             </span>
             {/* Gradient DP */}
             <div className="
@@ -77,15 +77,11 @@ function Topbar({ dark, setDark }) {
                 absolute right-0 mt-3 w-45 p-4
                 rounded-xl
                 backdrop-blur-xl
-                bg-blue-300/70 dark:bg-gray-700/40
+                bg-yellow-300/70 dark:bg-purple-300/40
                 border border-white/20 dark:border-white/10
                 shadow-lg hover:shadow-xl
               ">
 
-                <div className="mb-4 flex flex-col items-center">
-                  <p className="text-s whitespace-nowrap text-black dark:text-white mb-1">Role</p>
-                  <RoleToggle />
-                </div>
 
                 <div className="mb-4 flex flex-col items-center">
                   <p className="text-s text-black dark:text-white mb-2">Theme</p>
@@ -158,10 +154,6 @@ function Topbar({ dark, setDark }) {
           {/* SETTINGS INSIDE MOBILE */}
           <div className="pt-3 border-t border-white/20 dark:border-white/10">
 
-            <div className="mb-3">
-              <p className="text-xs text-gray-500 mb-1 ">Role</p>
-              <RoleToggle />
-            </div>
 
             <div className="mb-3">
               <p className="text-xs text-gray-500 mb-2">Theme</p>
