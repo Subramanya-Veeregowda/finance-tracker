@@ -9,6 +9,8 @@ import ExpenditureCard from "../components/ui/ExpenditureCard";
 import IncomeCard from "../components/ui/IncomeCard";
 import HorizontalScroll from "../components/features/HorizontalScroll";
 import { div } from "framer-motion/client";
+import DragDropContent from "../components/features/dragDrop/DragDropContent";
+import SortableItem from "../components/features/dragDrop/SortableItem";
 
 export default function Transactions({ dark, setDark, role, setRole}) {
 
@@ -125,6 +127,12 @@ const handleSave = (id) => {
     localStorage.setItem("role", newRole);
   }
 
+  const [cardOrder, setCardOrder] = useState([
+    { id: "balance" },
+    { id: "income" },
+    { id: "expense" }
+  ]);
+
   const monthlyData = [
    { month: "Jan", amount: 12000 },
    { month: "Feb", amount: 18000 },
@@ -146,20 +154,34 @@ const handleSave = (id) => {
       <div className="flex-1 flex flex-col overflow-x-hidden">
         <Topbar dark={dark} setDark={setDark} />
                        {/**DESKTOP */}
-                       <div className="hidden md:grid grid-cols-3 gap-5 pt-2 pl-3 pr-3">
-                          <FadeIn delay={0.4}><BalanceCard title="Total Balance" value={balance} /></FadeIn>
-                          <FadeIn delay={0.6}><IncomeCard title="Monthly Income" value={income}  data={incomeData}/></FadeIn>
-                          <FadeIn delay={0.8}><ExpenditureCard title="Monthly Expenditure" value={expense} data={expenseData}/></FadeIn>
-                       </div>
 
-                         {/**MOBILE */}
-                       <div className="md:hidden pt-2 px-3">
-                          <HorizontalScroll snap showIndicators>
-                              <FadeIn delay={0.4}><BalanceCard title="Total Balance" value={balance} /></FadeIn>
-                              <FadeIn delay={0.6}><IncomeCard title="Monthly Income" value={income}  data={incomeData}/></FadeIn>
-                              <FadeIn delay={0.8}><ExpenditureCard title="Monthly Expenditure" value={expense} data={expenseData}/></FadeIn>
-                          </HorizontalScroll>
-                       </div>
+        <DragDropContent items={cardOrder} setItems={setCardOrder}>
+         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 pt-2 pl-3 pr-3">
+
+          {cardOrder.map((card, index) => (
+           <SortableItem key={card.id} id={card.id}>
+
+           {card.id === "balance" && (
+            <FadeIn delay={0.4}>
+               <BalanceCard title="Total Balance" value={balance} />
+            </FadeIn>
+           )}
+
+           {card.id === "income" && (
+             <FadeIn delay={0.6}>
+                 <IncomeCard title="Monthly Income" value={income} data={incomeData} />
+             </FadeIn>
+           )}
+
+           {card.id === "expense" && (
+             <FadeIn delay={0.8}>
+                 <ExpenditureCard title="Monthly Expenditure" value={expense} data={expenseData} />
+             </FadeIn>
+           )}
+           </SortableItem>
+             ))}
+          </div>
+        </DragDropContent>
         <div className="p-4 md:p-6 space-y-6 w-full">
 
           {/* 🔍 SINGLE SEARCH BAR */}
