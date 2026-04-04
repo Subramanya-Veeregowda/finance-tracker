@@ -99,7 +99,7 @@ const yearlyData = [
 ];
 
 return (
-  <div className="flex min-h-[100dvh] bg-[#020617] transition all">
+  <div className="flex min-h-[100dvh]  transition all">
     <div className="flex-1 flex flex-col relative overflow-x-hidden overflow-y-hidden">
         <Topbar dark={dark} setDark={setDark}/>
           
