@@ -24,6 +24,7 @@ I enjoy building scalable web applications, learning new technologies, and solvi
 ![Tailwind](https://img.shields.io/badge/TailwindCSS-Styling-38B2AC?style=for-the-badge&logo=tailwindcss)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript)
 ![Vercel](https://img.shields.io/badge/Vercel-Deployment-black?style=for-the-badge&logo=vercel)
+![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
@@ -175,7 +176,7 @@ To build a responsive and intuitive financial dashboard that:
 
 ## ⚙️ Installation & Setup
 
-```bash
+
 # Clone repository
 git clone <your-repo-url>
 
@@ -197,7 +198,8 @@ npm run dev
 </a>
 </p>
 
----
+--- 
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subramanyav2002)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/subbu.7_?igsh=MWRicmJjNGo0NW5ydg==)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white)](https://wa.me/qr/IH3W2XLDW7FHE1)
