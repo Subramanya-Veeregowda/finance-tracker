@@ -10,7 +10,6 @@
 html, body{
   min-height: 100dvh;
   overflow-x: hidden;
-  background-color: #020617;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
@@ -37,7 +36,7 @@ html, body{
 body {
   margin: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  background-color: white;
   background: linear-gradient(
     45deg,
     #ecf2f8,
@@ -51,6 +50,7 @@ body {
 .dark body{
   margin: 0;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #020617;
   background: linear-gradient(
     135deg,
     #020617,
