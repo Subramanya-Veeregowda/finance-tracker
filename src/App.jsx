@@ -29,7 +29,7 @@ export default function App() {
       ]);
 
       // intentional delay for smooth UX
-      await new Promise((res) => setTimeout(res, 1200));
+      await new Promise((res) => setTimeout(res, 2200));
 
     } catch (err) {
       console.error(err);

@@ -9,7 +9,7 @@ export default function AnimatedBars() {
           className="w-4 bg-gradient-to-t from-emerald-400 via-blue-500 to-purple-500 rounded animate-pulse"
           style={{
             height: `${h}%`,
-            animationDelay: `${i * 0.2}s`,
+            animationDelay: `${i * 0.1}s`,
           }}
         />
       ))}
