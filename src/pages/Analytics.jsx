@@ -17,6 +17,8 @@ import WeekCard from "../components/WeekCard";
 import WeeklyTrendIndicator from "../components/ui/WeeklyTrendIndicator";
 import ComparisonIndicator from "../components/ui/ComparisonIndicator";
 import BudgetVsActual from "../components/ui/BudgetVsActual";
+import DragDropContent from "../components/features/dragDrop/DragDropContent";
+import SortableItem from "../components/features/dragDrop/SortableItem";
 
 export default function Analytics({ children, dark, setDark }) {
   const [summary, setSummary] = useState(null);
@@ -79,6 +81,12 @@ const breakdownData = Object.keys(categoryMap).map((key) => ({
   value: categoryMap[key],
 }));
 
+const [cardOrder, setCardOrder] = useState([
+    { id: "balance" },
+    { id: "income" },
+    { id: "expense" }
+]);
+
 const monthlyData = [
   { month: "Jan", amount: 12000 },
   { month: "Feb", amount: 18000 },
@@ -97,23 +105,37 @@ const yearlyData = [
 
   return (
    <div className="flex min-h-screen transition all">
-       <div className="flex-1 flex flex-col overflow-x-hidden ">
+       <div className="flex-1 flex flex-col overflow-x-hidden overflow-y-hidden">
             <Topbar dark={dark} setDark={setDark}/>
                         {/**DESKTOP */}
-                       <div className="hidden md:grid grid-cols-3 gap-5 pt-2 pl-3 pr-3">
-                          <FadeIn delay={0.4}><BalanceCard title="Total Balance" value={balance} /></FadeIn>
-                          <FadeIn delay={0.6}><IncomeCard title="Monthly Income" value={income}  data={incomeData}/></FadeIn>
-                          <FadeIn delay={0.8}><ExpenditureCard title="Monthly Expenditure" value={expense} data={expenseData}/></FadeIn>
-                       </div>
 
-                         {/**MOBILE */}
-                       <div className="md:hidden pt-2 px-3">
-                          <HorizontalScroll snap showIndicators>
-                              <FadeIn delay={0.4}><BalanceCard title="Total Balance" value={balance} /></FadeIn>
-                              <FadeIn delay={0.6}><IncomeCard title="Monthly Income" value={income}  data={incomeData}/></FadeIn>
-                              <FadeIn delay={0.8}><ExpenditureCard title="Monthly Expenditure" value={expense} data={expenseData}/></FadeIn>
-                          </HorizontalScroll>
-                       </div>
+        <DragDropContent items={cardOrder} setItems={setCardOrder}>
+         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 pt-2 pl-3 pr-3">
+
+          {cardOrder.map((card, index) => (
+           <SortableItem key={card.id} id={card.id}>
+
+           {card.id === "balance" && (
+            <FadeIn delay={0.4}>
+               <BalanceCard title="Total Balance" value={balance} />
+            </FadeIn>
+           )}
+
+           {card.id === "income" && (
+             <FadeIn delay={0.6}>
+                 <IncomeCard title="Monthly Income" value={income} data={incomeData} />
+             </FadeIn>
+           )}
+
+           {card.id === "expense" && (
+             <FadeIn delay={0.8}>
+                 <ExpenditureCard title="Monthly Expenditure" value={expense} data={expenseData} />
+             </FadeIn>
+           )}
+           </SortableItem>
+             ))}
+          </div>
+        </DragDropContent>
 
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-3 px-3">
                           <FadeIn delay={0.9}>

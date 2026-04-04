@@ -36,7 +36,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-       <main className="pt-20">
+       <main className="pt-20 pb-0 md:pb-20">
         <Routes>
        
           <Route path="/" element={<Dashboard dark={dark} setDark={setDark}/>} />

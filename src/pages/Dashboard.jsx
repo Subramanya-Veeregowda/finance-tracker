@@ -1,10 +1,8 @@
 import { useEffect, useState } from "react";
 import { getSummary, getTransactions } from "../services/api";
-import Balancechart from "../components/Balancechart";
 import Hero from "../components/Hero";
 import Topbar from "../components/Topbar";
 import BalanceCard from "../components/ui/BalanceCard";
-import Card from "../components/ui/Card";
 import ExpenditureCard from "../components/ui/ExpenditureCard";
 import IncomeCard from "../components/ui/IncomeCard";
 import  FadeIn from "../components/animations/FadeIn";
@@ -13,6 +11,8 @@ import SpendingBreakdown from "../components/ui/SpendingBreakDown";
 import MonthlyExpenditure from "../components/ui/MonthlyExpenditure";
 import YearlyExpenditure from "../components/ui/yearlyExpenditure";
 import Footer from "../components/Footer";
+import DragDropContent from "../components/features/dragDrop/DragDropContent";
+import SortableItem from "../components/features/dragDrop/SortableItem";
 
 export default function Dashboard({ children, dark, setDark }) {
   const [summary, setSummary] = useState(null);
@@ -21,18 +21,24 @@ export default function Dashboard({ children, dark, setDark }) {
     getSummary().then(setSummary);
   }, []);
 
-    const [transactions, setTransactions] = useState([]);
+  const [cardOrder, setCardOrder] = useState([
+    { id: "balance" },
+    { id: "income" },
+    { id: "expense" }
+  ]);
 
-useEffect(() => {
-  getTransactions().then((data) => {
+  const [transactions, setTransactions] = useState([]);
+
+  useEffect(() => {
+   getTransactions().then((data) => {
     console.log("API DATA:", data);
     if (!Array.isArray(data)) {
          console.error("API ERROR:", data);
          return;
     }
     setTransactions(data);
-  });
-}, [])
+   });
+  }, [])
 
   const income = transactions
     .filter(t => t.type === "income")
@@ -91,17 +97,40 @@ const yearlyData = [
   { year: "2025", amount: 190000 },
 ];
 
-  return (
+return (
   <div className="flex min-h-screen transition all">
-      <div className="flex-1 flex flex-col relative overflow-x-hidden overflow-y-hidden">
-           <Topbar dark={dark} setDark={setDark}/>
-           <Hero dark={dark} setDark={setDark}/>
+    <div className="flex-1 flex flex-col relative overflow-x-hidden overflow-y-hidden">
+        <Topbar dark={dark} setDark={setDark}/>
+        <Hero dark={dark} setDark={setDark}/>
 
-           <div className="grid grid-cols-1 md:grid-cols-3 gap-5 pt-2 pl-3 pr-3">
-              <FadeIn delay={0.4}><BalanceCard title="Total Balance" value={balance} /></FadeIn>
-              <FadeIn delay={0.6}><IncomeCard title="Monthly Income" value={income}  data={incomeData}/></FadeIn>
-              <FadeIn delay={0.8}><ExpenditureCard title="Monthly Expenditure" value={expense} data={expenseData}/></FadeIn>
-           </div>
+        <DragDropContent items={cardOrder} setItems={setCardOrder}>
+         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 pt-2 pl-3 pr-3">
+
+          {cardOrder.map((card, index) => (
+           <SortableItem key={card.id} id={card.id}>
+
+           {card.id === "balance" && (
+            <FadeIn delay={0.4}>
+               <BalanceCard title="Total Balance" value={balance} />
+            </FadeIn>
+           )}
+
+           {card.id === "income" && (
+             <FadeIn delay={0.6}>
+                 <IncomeCard title="Monthly Income" value={income} data={incomeData} />
+             </FadeIn>
+           )}
+
+           {card.id === "expense" && (
+             <FadeIn delay={0.8}>
+                 <ExpenditureCard title="Monthly Expenditure" value={expense} data={expenseData} />
+             </FadeIn>
+           )}
+           </SortableItem>
+             ))}
+          </div>
+        </DragDropContent>
+
            <div className="grid grid-cols-1 md:grid-cols-2 gap-1 mt-2 px-3">
                  <FadeIn delay={1}><BalanceTrend data={trendData} /></FadeIn>
                  <FadeIn delay={1.2}><SpendingBreakdown data={breakdownData} /></FadeIn>
