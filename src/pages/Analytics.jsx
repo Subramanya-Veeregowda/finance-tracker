@@ -9,7 +9,7 @@ import BalanceCard from "../components/ui/BalanceCard";
 import ExpenditureCard from "../components/ui/ExpenditureCard"
 import IncomeCard from "../components/ui/IncomeCard"
 import MonthlyExpenditure from "../components/ui/MonthlyExpenditure";
-import YearlyExpenditure from "../components/ui/yearlyExpenditure";
+import YearlyExpenditure from "../components/ui/YearlyExpenditure";
 import HorizontalScroll from "../components/features/HorizontalScroll";
 import MonthCard from "../components/ui/MonthCard";
 import YearCard from "../components/ui/YearCard";
