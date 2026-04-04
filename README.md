@@ -177,16 +177,16 @@ To build a responsive and intuitive financial dashboard that:
 ## ⚙️ Installation & Setup
 
 
-# Clone repository
+### Clone repository
 git clone <your-repo-url>
 
-# Navigate
+### Navigate
 cd finance-tracker
 
-# Install dependencies
+### Install dependencies
 npm install
 
-# Run locally
+### Run locally
 npm run dev
 
 ---
