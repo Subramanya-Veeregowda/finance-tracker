@@ -10,6 +10,7 @@
 html, body{
   min-height: 100dvh;
   overflow-x: hidden;
+  background-color: #020617;
 }
 
 .scrollbar-hide::-webkit-scrollbar {
