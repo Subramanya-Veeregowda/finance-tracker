@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useLoading } from "./components/loader/LoadingContext.jsx"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { getSummary, getTransactions } from "./services/api.js";
 import Dashboard from "./pages/Dashboard";
@@ -18,27 +19,32 @@ export default function App() {
     localStorage.getItem("role") || "viewer"
   );
 
-  const [loading, setLoading] = useState(true);
+  const { loading } = useLoading();
 
-  useEffect(() => {
-    const loadApp = async () => {
-       try {
-         await Promise.all([
-         getTransactions(),
-        getSummary(),
-      ]);
+  const { setLoading } = useLoading();
 
-      // intentional delay for smooth UX
-      await new Promise((res) => setTimeout(res, 2200));
+useEffect(() => {
+  const fetchData = async () => {
+    setLoading(true);
 
-    } catch (err) {
-      console.error(err);
-    } finally {
-      setLoading(false);
+    const start = Date.now();
+
+    await Promise.all([
+      getTransactions(),
+      getSummary()
+    ]);
+
+    const elapsed = Date.now() - start;
+    const MIN_TIME = 1200;
+
+    if (elapsed < MIN_TIME) {
+      await new Promise(res => setTimeout(res, MIN_TIME - elapsed));
     }
+
+    setLoading(false);
   };
 
-  loadApp();
+  fetchData();
 }, []);
 
   useEffect(() => {
