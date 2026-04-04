@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = "https://finance-api-2qow.onrender.com/";
 
 export const getTransactions = async () => {
   const res = await fetch("http://localhost:3001/transactions");
