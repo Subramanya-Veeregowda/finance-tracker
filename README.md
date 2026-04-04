@@ -61,7 +61,7 @@ To build a responsive and intuitive financial dashboard that:
 <p align="center">
   <img src="DashboardLight.png" width="45" height="45"/>
 
-  <img src="C:\Users\Subbu\Desktop\finance-tracker\Preview\Desktop\TransactionLight.png" width="45" height="45"/>
+  <img src="Preview/Desktop/TransactionDark.png" width="45" height="45"/>
 
   <img src="AnalyticsLight.png" width="45" height="45"/>
 
