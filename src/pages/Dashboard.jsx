@@ -9,7 +9,7 @@ import  FadeIn from "../components/animations/FadeIn";
 import BalanceTrend from "../components/ui/BalanceTrend";
 import SpendingBreakdown from "../components/ui/SpendingBreakDown";
 import MonthlyExpenditure from "../components/ui/MonthlyExpenditure";
-import YearlyExpenditure from "../components/ui/yearlyExpenditure";
+import YearlyExpenditure from "../components/ui/YearlyExpenditure";
 import Footer from "../components/Footer";
 import DragDropContent from "../components/features/dragDrop/DragDropContent";
 import SortableItem from "../components/features/dragDrop/SortableItem";
