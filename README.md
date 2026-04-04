@@ -58,7 +58,10 @@ To build a responsive and intuitive financial dashboard that:
 ## 🖼️ Preview
 
 ### 💻 Desktop (Light Mode)
-![alt text](DashboardLight.png)
+<p align="center">
+  <img src="DashboardLight.png" width="450" height="450"/>
+  <img src="DashboardDark.png" width="450" height="450"/>
+</p>
 
 ### 💻 Desktop (Dark Mode)
 > Add screenshot here
