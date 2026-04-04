@@ -7,10 +7,9 @@ import FadeIn from "../components/animations/FadeIn";
 import BalanceCard from "../components/ui/BalanceCard";
 import ExpenditureCard from "../components/ui/ExpenditureCard";
 import IncomeCard from "../components/ui/IncomeCard";
-import HorizontalScroll from "../components/features/HorizontalScroll";
-import { div } from "framer-motion/client";
 import DragDropContent from "../components/features/dragDrop/DragDropContent";
 import SortableItem from "../components/features/dragDrop/SortableItem";
+import ScrollToTop from "../components/features/ScrollToTop";
 
 export default function Transactions({ dark, setDark, role, setRole}) {
 
@@ -241,7 +240,7 @@ const handleSave = (id) => {
           </div>
 
           {/* 📊 TABLE */}
-          <div className="flex-1 overflow-x-auto rounded-lg">
+          <FadeIn delay={0.6}><div className="flex-1 overflow-x-auto rounded-lg">
 
             {loading ? (
               <p>Loading transactions...</p>
@@ -322,9 +321,9 @@ const handleSave = (id) => {
 
               </table>
             )}
-          </div>
+          </div></FadeIn>
         </div>
-
+           <ScrollToTop/>  
         <Footer />
       </div>
     </div>

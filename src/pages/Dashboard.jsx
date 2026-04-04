@@ -13,6 +13,7 @@ import YearlyExpenditure from "../components/ui/yearlyExpenditure";
 import Footer from "../components/Footer";
 import DragDropContent from "../components/features/dragDrop/DragDropContent";
 import SortableItem from "../components/features/dragDrop/SortableItem";
+import ScrollToTop from "../components/features/ScrollToTop";
 
 export default function Dashboard({ children, dark, setDark }) {
   const [summary, setSummary] = useState(null);
@@ -101,8 +102,8 @@ return (
   <div className="flex min-h-screen transition all">
     <div className="flex-1 flex flex-col relative overflow-x-hidden overflow-y-hidden">
         <Topbar dark={dark} setDark={setDark}/>
+          
         <Hero dark={dark} setDark={setDark}/>
-
         <DragDropContent items={cardOrder} setItems={setCardOrder}>
          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 pt-2 pl-3 pr-3">
 
@@ -143,9 +144,10 @@ return (
             <div className="grid grid-cols-1 mt-2 pt-2 pl-3 pr-3 ml-3 mr-3">
                 <FadeIn delay={1.6}><YearlyExpenditure data={yearlyData}/></FadeIn>
             </div>
+             <ScrollToTop/>
            <Footer/>
+       
       </div>
-     
   </div>
   );
 }

@@ -19,6 +19,7 @@ import ComparisonIndicator from "../components/ui/ComparisonIndicator";
 import BudgetVsActual from "../components/ui/BudgetVsActual";
 import DragDropContent from "../components/features/dragDrop/DragDropContent";
 import SortableItem from "../components/features/dragDrop/SortableItem";
+import ScrollToTop from "../components/features/ScrollToTop";
 
 export default function Analytics({ children, dark, setDark }) {
   const [summary, setSummary] = useState(null);
@@ -185,6 +186,7 @@ const yearlyData = [
                           <div className="grid grid-cols-1 mt-2 pt-2 pl-3 pr-3 ml-3 mr-3">
                                <FadeIn delay={1.6}><YearlyExpenditure data={yearlyData}/></FadeIn>
                           </div>
+                          <ScrollToTop/>
              <Footer/>
         </div>
     </div>
