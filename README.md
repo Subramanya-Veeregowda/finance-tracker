@@ -127,15 +127,15 @@ To build a responsive and intuitive financial dashboard that:
 <p align="left" gap="2">
   <img src="Preview/Mobile/DashboardLight.png" width="150" height="400"/>
 
-  <img src="Preview/Mobile/DashboardLight.png" width="150" height="400"/>
+  <img src="Preview/Mobile/TransactionLight.png" width="150" height="400"/>
 
-  <img src="Preview/Mobile/DashboardLight.png" width="150" height="400"/>
+  <img src="Preview/Mobile/AnalyticsLight.png" width="150" height="400"/>
 
-  <img src="Preview/Mobile/DashboardLight.png" width="150" height="400"/>
+  <img src="Preview/Mobile/InsightsLight.png" width="150" height="400"/>
 
-  <img src="Preview/Mobile/DashboardLight.png" width="150" height="400"/>
-  
-  <img src="Preview/Mobile/DashboardLight.png" width="150" height="400"/>
+  <img src="Preview/Mobile/SettingsLight.png" width="150" height="400"/>
+
+  <img src="Preview/Mobile/LoaderLight.png" width="150" height="400"/>
 
 </p>
 
