@@ -94,7 +94,7 @@ To build a responsive and intuitive financial dashboard that:
 
 ## 🖼️ Preview
 
-### 💻 Desktop (Light Mode)
+#### 💻 Desktop (Light Mode)
 <p align="left" gap="2">
   <img src="DashboardLight.png" width="200" height="180"/>
 
@@ -110,7 +110,7 @@ To build a responsive and intuitive financial dashboard that:
 
 </p>
 
-### 💻 Desktop (Dark Mode)
+#### 💻 Desktop (Dark Mode)
 <p align="left" gap="2">
   <img src="DashboardDark.png" width="200" height="180"/>
 
@@ -126,7 +126,7 @@ To build a responsive and intuitive financial dashboard that:
 
 </p>
 
-### 📱 Mobile (Light Mode)
+#### 📱 Mobile (Light Mode)
 <p align="left" gap="2">
   <img src="Preview/Mobile/DashboardLight.png" width="150" height="400"/>
 
@@ -140,7 +140,7 @@ To build a responsive and intuitive financial dashboard that:
 
 </p>
 
-### 📱 Mobile (Dark Mode)
+#### 📱 Mobile (Dark Mode)
 <p align="left" gap="2">
   <img src="Preview/Mobile/DashboardDark.png" width="150" height="400"/>
 
