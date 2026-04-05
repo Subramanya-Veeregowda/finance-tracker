@@ -59,7 +59,7 @@ I enjoy building scalable web applications, learning new technologies, and solvi
 
 ---
 
-### ⚠️ This is just for assignment and demonstration of my skills (some data are static)!
+### ⚠️ This is just for assignment and demonstration of my skills **(some data are static)**!
 
 ---
 
