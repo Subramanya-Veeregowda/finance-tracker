@@ -33,7 +33,7 @@ I enjoy building scalable web applications, learning new technologies, and solvi
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?logo=postgresql&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-red?logo=oracle&logoColor=white)
 
-![DSA](https://img.shields.io/badge/DataStructures&Algorithms-orange)
+![DSA](https://img.shields.io/badge/DataStructures&Algorithms-yellow)
 
 ![Git](https://img.shields.io/badge/Git-orange?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)
