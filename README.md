@@ -1,5 +1,5 @@
 ### 👋 Hello, I'm Subramanya Veeregowda  
-#### subramanyav2002@gmail.com (mailto:subramanyav2002@gmail.com)
+#### [subramanyav2002@gmail.com] (mailto:subramanyav2002@gmail.com)
 
 ----
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=3B82F6&size=30&center=false&vCenter=true&width=800&lines=Full+Stack+Developer;Java+Spring+Developer;React+Developer;Building+Scalable+Applications;DSA+CODER)
