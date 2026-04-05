@@ -28,7 +28,7 @@ I enjoy building scalable web applications, learning new technologies, and solvi
 
 ---
 
-## ⚠️ It is just for assignment and demonstration of my skills (some data are static).
+### ⚠️ It is just for assignment and demonstration of my skills (some data are static).
 
 ---
 
@@ -71,7 +71,7 @@ To build a responsive and intuitive financial dashboard that:
 
   <img src="AnalyticsLight.png" width="45" height="45"/>
 
-  <img src="insightsLight.png" width="45" height="45"/>
+  <img src="Preview/Desktop/InsightsLight.png" width="45" height="45"/>
 
   <img src="SetiingsLight.png" width="45" height="45"/>
 
@@ -211,7 +211,7 @@ To build a responsive and intuitive financial dashboard that:
 
 ---
 
-## ⚠️ It is just for assignment and demonstration of my skills (some data are static)
+### ⚠️ It is just for assignment and demonstration of my skills (some data are static)
 
 ---
 
