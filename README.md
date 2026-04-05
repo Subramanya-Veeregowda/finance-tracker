@@ -28,6 +28,10 @@ I enjoy building scalable web applications, learning new technologies, and solvi
 
 ---
 
+## ⚠️ It is just for assignment and demonstration of my skills (some data are static).
+
+---
+
 ## 📌 Overview
 
 A modern *Finance Tracker & Analytics Dashboard* built to manage transactions, visualize financial data, and deliver smooth user experience through thoughtful UI/UX and performance optimization.
@@ -175,9 +179,10 @@ To build a responsive and intuitive financial dashboard that:
 - Toggle (Theme switch)
 
 ### 🔹 Utility Components
-- ScrollToTop
-- RoleToggle
+- ScrollToTop (works for all devices)
+- RoleToggle (to toogle between viewer and admin where admin can edit Amount)
 - HorizontalScroll
+- Drag&Drop (only applied for TotolIncome, ExpenditureCard, BalanceCard both desktop and mobile)
 
 ### 🔹 Loader Components
 - SkeletonLoader
@@ -203,6 +208,10 @@ To build a responsive and intuitive financial dashboard that:
 - Async data fetching with batching
 - UX-first loading strategies
 - Responsive-first design approach
+
+---
+
+## ⚠️ It is just for assignment and demonstration of my skills (some data are static)
 
 ---
 
