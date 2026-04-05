@@ -131,8 +131,6 @@ To build a responsive and intuitive financial dashboard that:
 
   <img src="Preview/Mobile/AnalyticsLight.png" width="150" height="400"/>
 
-  <img src="Preview/Mobile/InsightsLight.png" width="150" height="400"/>
-
   <img src="Preview/Mobile/SettingsLight.png" width="150" height="400"/>
 
   <img src="Preview/Mobile/LoaderLight.png" width="150" height="400"/>
@@ -140,7 +138,18 @@ To build a responsive and intuitive financial dashboard that:
 </p>
 
 ### 📱 Mobile (Dark Mode)
-> Add screenshot here
+<p align="left" gap="2">
+  <img src="Preview/Mobile/DashboardDark.png" width="150" height="400"/>
+
+  <img src="Preview/Mobile/TransactionDark.png" width="150" height="400"/>
+
+  <img src="Preview/Mobile/AnalyticsDark.png" width="150" height="400"/>
+
+  <img src="Preview/Mobile/SettingsDark.png" width="150" height="400"/>
+
+  <img src="Preview/Mobile/LoaderDark.png" width="150" height="400"/>
+
+</p>
 
 ---
 
