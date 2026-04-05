@@ -40,6 +40,7 @@ I enjoy building scalable web applications, learning new technologies, and solvi
 ![Docker](https://img.shields.io/badge/Docker-blue?logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-blue?logo=kubernetes&logoColor=white)
 ![Jenkins](https://img.shields.io/badge/Jenkins-red?logo=jenkins&logoColor=white)
+[![Postman](https://img.shields.io/badge/Postman-orange?logo=postman&logoColor=white)](https://www.postman.com/)
 
 ![Agile](https://img.shields.io/badge/Agile-blue)
 ![Scrum](https://img.shields.io/badge/Scrum-lightblue)
