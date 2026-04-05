@@ -94,18 +94,17 @@ To build a responsive and intuitive financial dashboard that:
 ### 💻 Desktop (Light Mode)
 
 <p align="left" gap="2">
-  <img src="DashboardLight.png" width="100" height="100"/>
+  <img src="DashboardLight.png" width="200" height="180"/>
 
-  <img src="Preview/Desktop/TransactionLight.png" width="45" height="45"/>
+  <img src="Preview/Desktop/TransactionLight.png" width="200" height="150"/>
 
-  <img src="Preview/Desktop/AnalyticsLight.png" width="45" height="45"/>
+  <img src="Preview/Desktop/AnalyticsLight.png" width="200" height="150"/>
 
-  <img src="Preview/Desktop/InsightsLight.png" width="45" height="45"/>
+  <img src="Preview/Desktop/InsightsLight.png" width="200" height="150"/>
 
-  <img src="Preview/Desktop/SettingsLight.png" width="45" height="45"/>
+  <img src="Preview/Desktop/SettingsLight.png" width="200" height="150"/>
 
-  <img src="Preview/Desktop/LoaderLight.png" width="45" 
-  height="45"/>
+  <img src="Preview/Desktop/LoaderLight.png" width="200"  height="150"/>
 
 </p>
 
