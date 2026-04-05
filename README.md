@@ -1,11 +1,10 @@
-### 👋 Hello, I'm Subramanya Veeregowda
+### 👋 Hello, I'm Subramanya Veeregowda  [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:subramanyav2002@gmail.com)
 #### subramanyav2002@gmail.com 
 
 ----
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=3B82F6&size=30&center=false&vCenter=true&width=800&lines=Full+Stack+Developer;Java+Spring+Developer;React+Developer;Building+Scalable+Applications;DSA+CODER)
 ----
 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:subramanyav2002@gmail.com)
 <p >
 <img src="https://komarev.com/ghpvc/?username=subramanya-veeregowda&label=Profile%20views&style=flat" />
 <a href="https://github.com/subramanya-veeregowda?tab=followers">
@@ -18,7 +17,6 @@
 
 I enjoy building scalable web applications, learning new technologies, and solving complex problems through clean and efficient code. My focus is on creating reliable backend systems while crafting modern and responsive frontends.
 
--
 ![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)
@@ -290,6 +288,8 @@ npm run dev
 
 --- 
 
+## 🔗 Connect with me 
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/subramanyav2002)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/subbu.7_?igsh=MWRicmJjNGo0NW5ydg==)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white)](https://wa.me/qr/IH3W2XLDW7FHE1)
@@ -297,3 +297,5 @@ npm run dev
 [![X (Twitter)](https://img.shields.io/badge/X-black?logo=x&logoColor=white)](https://x.com/SubramanyaV_)
 [![LeetCode](https://img.shields.io/badge/LeetCode-orange?logo=leetcode&logoColor=white)](https://leetcode.com/subbuveere)
 [![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?logo=hackerrank&logoColor=white)](https://hackerrank.com/subbuveere)
+
+---
