@@ -17,6 +17,8 @@ Phone: **+91 70196 08472**   Email: **mailto:subramanyav2002@gmail.com**   Whats
 
 I enjoy building scalable web applications, learning new technologies, and solving complex problems through clean and efficient code. My focus is on creating reliable backend systems while crafting modern and responsive frontends.
 
+**Resume:** **https://bit.ly/SubramanyaVResume**
+
 ![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)
