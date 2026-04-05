@@ -58,7 +58,7 @@ I enjoy building scalable web applications, learning new technologies, and solvi
 
 ---
 
-### ⚠️ It is just for assignment and demonstration of my skills (some data are static).
+### ⚠️ This is just for assignment and demonstration of my skills (some data are static)!
 
 ---
 
@@ -92,20 +92,19 @@ To build a responsive and intuitive financial dashboard that:
 ## 🖼️ Preview
 
 ### 💻 Desktop (Light Mode)
-![alt text](Preview/Desktop/TransactionLight.png)
-![alt text](Preview/Desktop/InsightsLight.png)
-<p align="left">
+
+<p align="left" gap="2">
   <img src="DashboardLight.png" width="100" height="100"/>
 
-  <img src="Preview/Desktop/TransactionDark.png" width="45" height="45"/>
+  <img src="Preview/Desktop/TransactionLight.png" width="45" height="45"/>
 
-  <img src="AnalyticsLight.png" width="45" height="45"/>
+  <img src="Preview/Desktop/AnalyticsLight.png" width="45" height="45"/>
 
   <img src="Preview/Desktop/InsightsLight.png" width="45" height="45"/>
 
-  <img src="SetiingsLight.png" width="45" height="45"/>
+  <img src="Preview/Desktop/SettingsLight.png" width="45" height="45"/>
 
-  <img src="LoaderLight.png" width="45" 
+  <img src="Preview/Desktop/LoaderLight.png" width="45" 
   height="45"/>
 
 </p>
@@ -241,7 +240,7 @@ To build a responsive and intuitive financial dashboard that:
 
 ---
 
-### ⚠️ It is just for assignment and demonstration of my skills (some data are static)
+### ⚠️ This is just for assignment and demonstration of my skills (some data are static)!
 
 ---
 
