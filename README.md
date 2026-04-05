@@ -1,7 +1,7 @@
 ### 👋 Hello, I'm Subramanya Veeregowda  
-[![Phone](https://img.shields.io/badge/Phone-D14836?logo=phone&logoColor=white)](tel:+91701968472)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:subramanyav2002@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?logo=whatsapp&logoColor=white)](https://wa.me/qr/IH3W2XLDW7FHE1)
+#### 📞 Phone: +91 9701968472  
+#### 📧 Email: subramanyav2002@gmail.com  
+#### 💬 WhatsApp: https://wa.me/your-number
 
 ----
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=3B82F6&size=30&center=false&vCenter=true&width=800&lines=Full+Stack+Developer;Java+Spring+Developer;React+Developer;Building+Scalable+Applications;DSA+CODER)
