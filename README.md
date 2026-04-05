@@ -125,7 +125,7 @@ To build a responsive and intuitive financial dashboard that:
 
 ### 📱 Mobile (Light Mode)
 <p align="left" gap="2">
-  <img src="Preview/Mobile/DashboardLight.png" width="400" height="180"/>
+  <img src="Preview/Mobile/DashboardLight.png" width="150" height="400"/>
 
   <img src="Preview/Desktop/TansactionDark.png" width="200" height="150"/>
 
