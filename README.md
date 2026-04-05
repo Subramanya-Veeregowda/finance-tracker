@@ -96,7 +96,7 @@ To build a responsive and intuitive financial dashboard that:
 </p>
 
 ### 📱 Mobile (Light Mode)
-> Add screenshot here
+
 
 ### 📱 Mobile (Dark Mode)
 > Add screenshot here
