@@ -110,21 +110,19 @@ To build a responsive and intuitive financial dashboard that:
 
 ### 💻 Desktop (Dark Mode)
 <p align="center">
+<p align="left" gap="2">
+  <img src="DashboardDark.png" width="200" height="180"/>
 
-  <img src="DashboardDark.png" width="45" height="45"/>
+  <img src="Preview/Desktop/TransactionDark.png" width="200" height="150"/>
 
-  <img src="TransactionDark.png" width="45" height="45"/>
- 
-  <img src="AnalyticsDark.png" width="45" height="45"/>
+  <img src="Preview/Desktop/AnalyticsDark.png" width="200" height="150"/>
 
-  <img src="InsightsDark.png" width="45" 
-  height="45"/>
+  <img src="Preview/Desktop/InsightsDark.png" width="200" height="150"/>
 
-  <img src="SettingsDark.png" width="45" 
-  height="45"/>
+  <img src="Preview/Desktop/SettingsDark.png" width="200" height="150"/>
 
-  <img src="LoaderDark.png" width="45" 
-  height="45"/>
+  <img src="Preview/Desktop/LoaderDark.png" width="200"  height="150"/>
+
 </p>
 
 ### 📱 Mobile (Light Mode)
