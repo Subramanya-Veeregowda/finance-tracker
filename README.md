@@ -1,5 +1,5 @@
 ### 👋 Hello, I'm Subramanya Veeregowda  
-Phone: **tel:+91701968472**   Email: **mailto:subramanyav2002@gmail.com**   WhatsApp: **https://wa.me/+917019608472**
+Phone: **+91701968472**   Email: **mailto:subramanyav2002@gmail.com**   WhatsApp: **https://wa.me/+917019608472**
 
 ----
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=3B82F6&size=30&center=false&vCenter=true&width=800&lines=Full+Stack+Developer;Java+Spring+Developer;React+Developer;Building+Scalable+Applications;DSA+CODER)
