@@ -63,11 +63,7 @@ To build a responsive and intuitive financial dashboard that:
 <p align="center">
   <img src="DashboardLight.png" width="45" height="45"/>
 
-<<<<<<< HEAD
   <img src="Preview/Desktop/TransactionDark.png" width="45" height="45"/>
-=======
-  <img src="Preview/Desktop/TransactionLight.png" width="45" height="45"/>
->>>>>>> 5c39683 (ft: added proper documentation in readme about my project)
 
   <img src="AnalyticsLight.png" width="45" height="45"/>
 
