@@ -32,7 +32,7 @@ export default function Footer() {
 
         {/* CENTER */}
         <div className="text-xs opacity-60 text-center">
-          React 18 • Vite 5 • Tailwind CSS 3 • Recharts 2 • Git • Docker
+          React 18 • Vite 5 • Tailwind CSS 3 • Recharts 2 • Git • Vercel
         </div>
 
         {/* RIGHT */}
