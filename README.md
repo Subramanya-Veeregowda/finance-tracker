@@ -88,7 +88,7 @@ To build a responsive and intuitive financial dashboard that:
 
 ## 🔗 Live Demo
 
-👉 *Demo Link:* [Add your deployed link here]
+🌐 **DEMO LINK:** **https://bit.ly/Finance-Tracker_SubramanyaV**
 
 ---
 
