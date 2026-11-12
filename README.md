@@ -220,14 +220,15 @@ The application will be available at the local development URL provided by Vite.
 
 ---
 
-## Connect
+<div align="center">
 
-- [LinkedIn](https://www.linkedin.com/in/subramanyav2002)
-- [GitHub](https://github.com/subramanya-veeregowda)
-- [LeetCode](https://leetcode.com/subbuveere)
-- [HackerRank](https://hackerrank.com/subbuveere)
-- [X](https://x.com/SubramanyaV_)
-- [Instagram](https://www.instagram.com/subbu.7_)
-- [Email](mailto:subramanyav2002@gmail.com)
+  Subramanya Veeregowda | Full Stack Developer | Data Engineer <br />
 
----
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](LINKEDIN_URL)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-link.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](GITHUB_URL)
+  [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](LEETCODE_URL)
+  [![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](HACKERRANK_URL)
+  [![NeetCode](https://img.shields.io/badge/NeetCode-000000?style=for-the-badge)](NEETCODE_URL)
+  [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](WHATSAPP_URL)
+</div>
